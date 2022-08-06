@@ -21,7 +21,6 @@ html{
     background-color: black;
     background-size: 250vh;
     background-repeat: no-repeat;
-    overflow-y: hidden;
 }
 a{
     text-decoration: none;
