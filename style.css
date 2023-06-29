@@ -17,10 +17,11 @@
 
 
 html{
-    background-image: url(img/fondo1.png);
+    background-image: url(img/fondoepico.jpg);
     background-color: black;
     background-size: 250vh;
     background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 a{
     text-decoration: none;
@@ -41,7 +42,7 @@ a{
     
 }
 .titulo0{
-    font-family: dancing;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 200%;
     color: white;
     text-align: center;
@@ -49,7 +50,7 @@ a{
 }
 .subtitulo{
     font-family: bhutuka;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
@@ -62,7 +63,7 @@ a{
     text-decoration: underline;
 }
 .Informacion{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: white;
     text-align: left;
@@ -90,4 +91,7 @@ a{
 }
 .toxic:active{
     transform: scale(0.9);
+}
+.fachapura{
+    padding-left:   5px;
 }
